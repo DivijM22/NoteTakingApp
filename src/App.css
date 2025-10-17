@@ -1,0 +1,13 @@
+body{
+  background-color : #F7F0DF;
+}
+
+textarea{
+  outline:none;
+  resize: none;
+}
+
+input{
+  outline: none;
+  resize:none;
+}
