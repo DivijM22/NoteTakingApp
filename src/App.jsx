@@ -25,7 +25,7 @@ export default function App()
         <div className="flex flex-col items-center max-w-full w-full min-h-screen">
             <Header/>
             <CreateArea onSubmit={addNote}/>
-            <div className="w-screen p-12 flex gap-7">
+            <div className="items-start w-screen p-12 flex gap-7">
                 {
                     notes.map((note,index)=>{
                         if(note.content!=="")

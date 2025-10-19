@@ -8,14 +8,10 @@ export default function Note(props)
     }
 
     return(
-        <div className="flex flex-col max-w-[200px] w-full gap-[10px] border-2 rounded-xl p-4 bg-white text-gray-400">
-            <div className="title text-xl font-bold">
-                <h1>{props.title}</h1>
-            </div>
-            <div className="content">
-                <p>
-                    {props.content}
-                </p>
+        <div className="flex flex-col w-64 gap-[10px] border-2 rounded-xl p-4 bg-white text-gray-400">
+            <h1 className="text-xl font-bold">{props.title}</h1>
+            <div className="flex justify-start content m-0 p-0">
+                <p className="whitespace-pre-line text-left">{props.content}</p>
             </div>
 
             <div className="flex h-full justify-end items-end">
